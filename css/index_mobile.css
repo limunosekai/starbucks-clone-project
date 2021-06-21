@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+html {
+  font-size: 16px;
+}
+body {
+  font-size: 1rem;
+}
+header {
+  border: none;
+}
+header > div h1 {
+  padding: 0.8125rem 0 0.75rem 0.625rem;
+}
+header > div h1 img {
+  width: 2.8125rem;
+}
+header > div .spot {
+  top: 1.3rem;
+  right: 2rem;
+}
+header > div .spot img {
+  width: 1.5rem;
+}
+header > div .spot li ~ li {
+  padding-left: 1.6875rem;
+}
+header > div .spot li ~ li a:after {
+  display: none;
+}
+header > div .spot li:nth-child(2),
+header > div .spot li:nth-child(3),
+header > div .spot li:nth-child(5) {
+  display: none;
+}
+header > div .spot li span {
+  position: absolute;
+  left: -9999%;
+}
+header > div .spot li:nth-child(1) a img,
+header > div .spot li:nth-child(4) a img {
+  display: inline-block;
+}
+header .total {
+  display: inline-block;
+  position: absolute;
+  top: 1.3rem;
+  right: 1.3rem;
+}
+header .total img {
+  width: 1.5rem;
+}
+header > div nav {
+  display: none;
+}

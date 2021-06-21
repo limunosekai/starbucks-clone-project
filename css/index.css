@@ -54,7 +54,11 @@ header > div .spot li a {
   color: #333;
   line-height: 100%;
 }
-header > div .spot li a img {
+header > div .spot li:nth-child(1) a img,
+header > div .spot li:nth-child(4) a img {
+  display: none;
+}
+header > div .spot li:last-child a img {
   background-color: #fff;
   padding: 5px;
   border: 1px solid #ccc;
@@ -72,5 +76,8 @@ header > div .spot li ~ li a:after {
   transform: translateY(-25%);
 }
 header > div .spot li:last-child a::after {
+  display: none;
+}
+header .total {
   display: none;
 }
