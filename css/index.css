@@ -1,0 +1,76 @@
+html {
+  font-size: 20px;
+}
+body {
+  font-size: 1rem;
+}
+header {
+  background-color: #f6f5ef;
+  border-top: 2px solid #000;
+}
+header > div {
+  position: relative;
+  width: 55rem;
+  margin: 0 auto;
+}
+/* float 주면 float에 대한 부모는 높이가 사라짐 */
+header > div:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+header > div h1 {
+  float: left;
+  padding: 1.1rem 0 1.2rem;
+}
+header > div nav {
+  float: right;
+  padding: 2.65rem 0 0 0;
+}
+header > div nav > ul > li {
+  float: left;
+}
+header > div nav > ul > li > a {
+  display: block;
+  font-size: 0.7rem;
+  color: #333;
+  padding: 0.75rem 1.25rem 0;
+  height: 2.6rem;
+  line-height: 100%;
+}
+header > div .spot {
+  position: absolute;
+  top: 0.45rem;
+  right: 0;
+  margin-right: 2.7rem;
+}
+header > div .spot li {
+  float: left;
+  padding: 0 0.75rem;
+  position: relative;
+}
+header > div .spot li a {
+  font-size: 0.6rem;
+  color: #333;
+  line-height: 100%;
+}
+header > div .spot li a img {
+  background-color: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* li ~ li 사이(첫번째 제외) */
+header > div .spot li ~ li a:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 1px;
+  height: 0.6rem;
+  background-color: #e5e5e5;
+  transform: translateY(-25%);
+}
+header > div .spot li:last-child a::after {
+  display: none;
+}
