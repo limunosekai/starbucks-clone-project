@@ -102,9 +102,6 @@ header .total {
   margin: 0 auto;
 }
 .rewards div h2 {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   padding-left: 2.2rem;
 }
 .rewards div h2 img {
@@ -162,4 +159,7 @@ header .total {
   height: 1px;
   background: #4b615b;
   margin: 1rem 0;
+}
+.mobile-br {
+  display: none;
 }

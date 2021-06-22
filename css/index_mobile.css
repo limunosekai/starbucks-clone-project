@@ -6,6 +6,9 @@ html {
 body {
   font-size: 1rem;
 }
+
+/* header */
+
 header {
   border: none;
 }
@@ -52,4 +55,66 @@ header .total img {
 }
 header > div nav {
   display: none;
+}
+
+/* main */
+.rewards {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+.rewards .flex-between {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.rewards > div {
+  width: auto;
+  margin: 0;
+}
+.rewards .flex-between .info .flex-between {
+  align-items: center;
+  padding-bottom: 0.9rem;
+}
+.rewards div h2 {
+  padding-left: 0;
+  padding-bottom: 2rem;
+  width: 40%;
+  text-align: center;
+}
+.rewards div h2 img {
+  min-width: 6.2rem;
+}
+.rewards .info {
+  width: 90%;
+  padding-right: 0;
+  text-align: center;
+}
+.rewards .info h4 {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.rewards .info .signup {
+  line-height: 1.5rem;
+}
+.rewards .info .e-gift {
+  font-size: 0.9rem;
+  padding-bottom: 1.5rem;
+}
+.rewards .info .btn-container {
+  width: 90%;
+}
+.btn {
+  width: calc(45% - 5px);
+  height: auto;
+  font-size: 0.9rem;
+  border-radius: 3px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.btn.long {
+  width: 80%;
+}
+.mobile-br {
+  display: block;
 }

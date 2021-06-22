@@ -18,3 +18,27 @@ header > div h1 {
 }
 
 /* main */
+.rewards .flex-between {
+  justify-content: space-around;
+}
+.rewards .flex-between .info .flex-between {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.rewards div h2 img {
+  width: auto;
+  max-width: 100%;
+}
+.rewards .info {
+  width: calc(65% - 4rem);
+  padding-right: 2rem;
+}
+.rewards .info .signup {
+  padding-bottom: 0.7rem;
+}
+.rewards .info .e-gift {
+  padding-bottom: 0.7rem;
+}
+.underline {
+  width: 100%;
+}
