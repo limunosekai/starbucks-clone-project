@@ -94,7 +94,7 @@ header .total {
 }
 .visual .visual-inner {
   position: relative;
-  width: 55rem;
+  max-width: 55rem;
   height: 100%;
   margin: 0 auto;
 }
@@ -112,6 +112,12 @@ header .total {
   right: 11.3%;
   width: 34%;
   max-width: 17.9rem;
+}
+.visual .img1 img,
+.visual .img3 img,
+.visual .img2 img,
+.visual .img4 img {
+  width: 100%;
 }
 .visual .img2 {
   bottom: 7.4%;
@@ -156,6 +162,12 @@ header .total {
   width: 60%;
   max-width: 12rem;
 }
+.visual .visual-inner .m-drink {
+  display: none;
+}
+.visual .visual-inner .m-slogan {
+  display: none;
+}
 .visual .visual-inner .slogan {
   top: 34%;
   left: 11.9%;
@@ -175,12 +187,14 @@ header .total {
   color: #595857;
   border: 2px solid #595857;
 }
+.visual .visual-inner .floating-badge .m-bedge {
+  display: none;
+}
 .visual .visual-inner .floating-badge {
   position: fixed;
   top: 7.7rem;
-  left: 54.5%;
+  right: 1%;
   width: 7rem;
-  margin-left: 24.25rem;
   z-index: 999;
 }
 
