@@ -198,6 +198,123 @@ header .total {
   z-index: 999;
 }
 
+/* line-notice */
+.line-notice {
+  height: 3.1rem;
+  position: relative;
+  width: 100%;
+}
+.line-notice-left {
+  background: #111;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 3.1rem;
+  width: 50%;
+}
+.line-notice-right {
+  height: 3.1rem;
+  width: 50%;
+  background: #f6f5ef;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.line-notice-bg {
+  background: url(../images/line_notice_bg.jpg);
+  height: 3.1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -32rem;
+  width: 64rem;
+}
+.line-notice-bgl {
+  height: 3.1rem;
+  width: 36.5rem;
+  float: left;
+}
+.line-notice-inner {
+  height: 1.8rem;
+  margin: 13px 0 0 89px;
+  width: 31.05rem;
+  float: left;
+}
+.line-notice-inner-l {
+  height: 1.65rem;
+  width: 24.7rem;
+  float: left;
+  position: relative;
+}
+.line-notice-inner-l dd {
+  position: absolute;
+  left: 3.25rem;
+  top: 0.45rem;
+  width: 26rem;
+  height: 1.2rem;
+  text-indent: 0.75rem;
+  overflow: hidden;
+}
+.line-notice-inner-l dd ul {
+  direction: 1tr;
+  font-size: 0.75rem;
+  color: #fff;
+}
+.line-notice-inner-l dd ul li {
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.line-notice-inner-r {
+  height: 1.8rem;
+  width: 1.8rem;
+  float: right;
+  position: relative;
+}
+.line-notice-inner-r span {
+  background: url(../images/btn_notice_plus.png) 0 0 no-repeat;
+  background-size: 1.8rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+}
+.line-notice-bgr {
+  position: relative;
+  float: right;
+  height: 3.1rem;
+  width: 27.5rem;
+  z-index: 10;
+}
+.line-notice-bgr a {
+  position: absolute;
+  height: 1.8rem;
+  width: 11.7rem;
+  top: 13px;
+  left: 37%;
+}
+.line-notice-bgr a .prom-ttl {
+  background: url(../images/prom_ttl_b.png) no-repeat;
+  background-size: 100% auto;
+  width: 6.45rem;
+  height: 0.85rem;
+  position: absolute;
+  top: 9px;
+  left: 0;
+  overflow: hidden;
+  text-indent: -99999px;
+}
+.line-notice-bgr a span {
+  background: url(../images/btn_prom_down.png) 0 0 no-repeat;
+  background-size: 1.8rem;
+  position: absolute;
+  overflow: hidden;
+  width: 1.8rem;
+  height: 1.8rem;
+  top: 0;
+  right: 0;
+}
+
 /* rewards */
 
 .rewards {
