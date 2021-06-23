@@ -87,6 +87,105 @@ header .total {
 
 /* main */
 
+/* visual */
+.visual {
+  height: 32.3rem;
+  background: url(../images/2021_summer2_bg.jpg) no-repeat center top;
+}
+.visual .visual-inner {
+  position: relative;
+  width: 55rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.visual .visual-inner > div {
+  position: absolute;
+}
+.visual .img1 {
+  max-width: 17.6rem;
+  width: 32.6%;
+  padding-top: 6.6%;
+  padding-left: 1.8%;
+}
+.visual .img3 {
+  bottom: 30.4%;
+  right: 11.3%;
+  width: 34%;
+  max-width: 17.9rem;
+}
+.visual .img2 {
+  bottom: 7.4%;
+  left: 33.1%;
+  width: 38%;
+  max-width: 20.2rem;
+}
+.visual .img4 {
+  bottom: 21.7%;
+  right: -11.5%;
+  width: 36%;
+  max-width: 18.95rem;
+}
+.visual .common:after {
+  content: '';
+  height: 3.95rem;
+  display: block;
+  position: absolute;
+  z-index: 10;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.visual .img4:after {
+  background-image: url(../images/2021_summer2_iced_tea_tit.png);
+  top: 103.7%;
+  left: -4.4%;
+  width: 66%;
+  max-width: 12.4rem;
+}
+.visual .img3:after {
+  background-image: url(../images/2021_summer2_blended_tit.png);
+  top: 104.6%;
+  left: -7.5%;
+  width: 62.5%;
+  max-width: 11.1rem;
+}
+.visual .img2:after {
+  background-image: url(../images/2021_summer2_frappuccino_tit.png);
+  bottom: 19.2%;
+  left: -59.9%;
+  width: 60%;
+  max-width: 12rem;
+}
+.visual .visual-inner .slogan {
+  top: 34%;
+  left: 11.9%;
+  margin-top: 1.25rem;
+  width: 6.25rem;
+  height: 1.9rem;
+}
+.visual .visual-inner .slogan a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 0.75rem;
+  line-height: 1.7rem;
+  border-radius: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  color: #595857;
+  border: 2px solid #595857;
+}
+.visual .visual-inner .floating-badge {
+  position: fixed;
+  top: 7.7rem;
+  left: 54.5%;
+  width: 7rem;
+  margin-left: 24.25rem;
+  z-index: 999;
+}
+
+/* rewards */
+
 .rewards {
   padding-top: 1.5rem;
   padding-bottom: 2rem;
