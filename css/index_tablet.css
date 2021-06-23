@@ -18,8 +18,34 @@ header > div h1 {
 }
 
 /* main */
-/* rewards */
 
+/* line-notice */
+.line-notice-bg {
+  background: none;
+  margin-left: -24rem;
+  width: 48rem;
+}
+.line-notice-bgl {
+  width: 55%;
+}
+.line-notice-inner {
+  width: 84%;
+  margin: 13px 0 0 20px;
+}
+.line-notice-inner-l {
+  width: 85%;
+}
+.line-notice-inner-l dd ul li {
+  /* width: 55%; */
+}
+.line-notice-bgr {
+  width: 45%;
+}
+.line-notice-bgr a {
+  left: 10%;
+}
+
+/* rewards */
 .rewards .flex-between {
   justify-content: space-around;
 }

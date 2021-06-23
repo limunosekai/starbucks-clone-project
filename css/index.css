@@ -246,6 +246,16 @@ header .total {
   float: left;
   position: relative;
 }
+.line-notice-inner-l .notice-ttl {
+  background: url(../images/notice_ttl.png) no-repeat;
+  background-size: 3.25rem auto;
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
+  width: 3.25rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
 .line-notice-inner-l dd {
   position: absolute;
   left: 3.25rem;
@@ -264,6 +274,17 @@ header .total {
   height: 1.2rem;
   line-height: 1.2rem;
 }
+.line-notice-inner-l dd ul li a {
+  color: #fff;
+  display: block;
+  height: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  font-size: 14px;
+}
+
 .line-notice-inner-r {
   height: 1.8rem;
   width: 1.8rem;

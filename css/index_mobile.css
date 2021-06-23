@@ -145,6 +145,97 @@ header > div nav {
 .visual .visual-inner .floating-badge .m-bedge {
   display: block;
 }
+
+/* line-notice */
+.line-notice {
+  height: 11rem;
+}
+.line-notice-left {
+  height: 5.5rem;
+  width: 100%;
+}
+.line-notice-right {
+  height: 5.5rem;
+  width: 100%;
+  top: 5.5rem;
+}
+.line-notice-bg {
+  background: none;
+  height: 5.5rem;
+  width: 100%;
+  margin-left: 0;
+  position: relative;
+  left: 0;
+  margin: 0 auto;
+}
+.line-notice-bgl {
+  height: 5.5rem;
+  width: 100%;
+}
+.line-notice-inner {
+  height: 2.75rem;
+  margin: 28px 0 0 20px;
+  min-width: 495px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line-notice-inner-l {
+  height: 2.75rem;
+  width: 65%;
+}
+.line-notice-inner-l .notice-ttl {
+  background: url(../images/icon_board_speaker.png) no-repeat center center;
+  background-size: 1.65rem 1.6rem;
+  height: 1.6rem;
+  top: 0;
+  left: 0;
+}
+.line-notice-inner-l dd {
+  top: 10px;
+  text-indent: 0;
+}
+.line-notice-inner-l dd ul li a {
+  font-size: 1.3rem;
+}
+.line-notice-inner-r {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.line-notice-inner-r span {
+  width: 2rem;
+  height: 2rem;
+  background-size: 100% auto;
+  right: 0;
+  left: auto;
+  /* top: 7px; */
+}
+.line-notice-bgr {
+  height: 5.5rem;
+  width: 100%;
+}
+.line-notice-bgr a {
+  top: 28px;
+  left: 50%;
+  margin-left: -8rem;
+  min-width: 300px;
+  width: 15.1rem;
+  height: 2.75rem;
+}
+.line-notice-bgr a .prom-ttl {
+  background-size: 100% auto;
+  top: 13px;
+  left: 0;
+  width: 221px;
+  height: 28px;
+}
+.line-notice-bgr a span {
+  top: 7px;
+  right: 0px;
+  width: 2rem;
+  height: 2rem;
+}
+
 /* rewards */
 .rewards {
   padding-top: 2rem;
